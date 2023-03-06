@@ -1,0 +1,133 @@
+﻿2.61d
+Sooo, Okay then 2.61d will be the last release for 1.4.5. I didnt change much, only Code, so I skip the Changelog
+
+2.61c
+Added Liquids for all my Cells except Carbon
+Electric Autocrafting is now only 2500EU per Craft (500EU for Dustpiler and Unificator)
+I think I fixed the Computercube-Access of the GUI for SMP (you know that internal Server Error, when you open the GUI of a ComputerCube, which doesnt belong to you)
+
+2.61b
+Added Gas Turbines for Nitrogen, Methane, Hydrogen and Air Cells, and removed Fuel Can recipes from them of the Centrifuge.
+Added all the reported Oredict-Stuff to my List, tell me if I missed something.
+Oh and the Gas Turbine outputs at 16EU/t
+
+2.61a
+Added Diesel Generator:
+Forestry Biofuel (not Biomass!) = 32000EU
+BC-Fuel = 196000EU
+Fuelcans of IC² = +25% of the normal Burnvalue for regular Generators
+Coalfuel and Biofuel Cells of IC² also a +25% bonus and you get the Cells back.
+If a Mod adds IC²-Coalfuel or IC²-Biofuel as Liquid, you get an extra Bonus for using the Liquid variant.
+
+2.60d
+Fixed Double Chests and my Automation Devices
+Fixed Critical Bug in my Item Overloader, which caused many Problems, including the ones with Language Packs. (I had internal Problems, which I fixed somehow hardcoded), the one Problem RichardG had is not Part of this fix, as I have no Idea, what Errorlog he got as I overload Uranium Cells in @postInit and not as static Method. Probably MiscPeripherals just got loaded before IC², what could've caused the Problem.
+
+2.60c
+Fixed a serious exploit, by replaceing a plus with a minus.
+Added Machine Hulls. They are just like Machine Blocks, but only available as Item (no Block format).
+Added "Machine Parts". They are dropped by wrongly dismantled Machines (Wrench fail or usage of Pickaxe), and are used to create Machine Hulls (but they are pretty cheap).
+
+2.60b
+You now HAVE TO WRENCH my Machines. If you don't, then its clearly your fault, when receiving nothing!
+Added "Error-Message" to the GUI of my Machines, which need constant Energy. That Message goes away after successfully producing something, or after restarting the Game (what mostly leads in the Message immidietly coming back, as your Power Line is still crap).
+Added Biomes of Twilight Forest (almost wanted to say "Twilight Forestry"), to my Worldgen Lists.
+Made Autocrafting Table a bit more Time Efficient and +150% more Lagfree.
+
+2.60a
+For IC²-1.110-Official-Release. Could contain minor Bugs. Wrenching for dismantling will work in next Version, until then you can use your Iron Pickaxe.
+
+2.55b
+Added Dust piling Mode to Autocrafting Table, which is like the 2x2-Packager, but ONLY for my tiny Piles of Dust.
+
+2.55a
+fixed Isotope Cells in ComputerCube
+Added Thermal Expansion Support for some Machines (btw. Did you know that TE has a Config to let the Pulveriser/InductionSmelter cost additional 2 Diamonds?)
+Added Oredict Unification for the Autocrafting Table
+Made Forestrys Bronze Recipe create 2 Ingots instead of 4 (+Config as GregTech-Internal exploits via Centrifuge are fixed in that regard)
+Fixed Bucket Recipes of Metallurgy making it possible to create IronConverters for Ingots, which are not only inside the Mod itself.
+Adjusted Modloading order of GregTech a bit, to be sure it loads after the most important Mods.
+
+2.54c
+Some Tweaks.
+A Message, when you play this Addon the first Time.
+Capelists now a bit better updated.
+Added Ashes. Its basically a replacement for Slag. Did you know that Foretry doesnt use the Oredict for making Fertilizer out of Ashes?
+Adjusted the Bronze-Problem a bit.
+
+2.54b
+Added a few Wooden Maceration Recipes.
+Fixed a Bug with the ID-Resolver and Energy Storage Items.
+
+2.54a
+Added Industrial Sawmill (small Multiblock Structure). It is for processing Wood (what a Surprise).
+Fixed some Bugs.
+Tweaked the Autocrafting Table again.
+
+2.53e
+Fixed Nuclear Fuels and their 5x Output of EU.
+Fixed some minor Bugs.
+Made Autocrafting Table more intelligent.
+TWEAKS!!!
+
+2.53d
+Fixed Dupe-Glitch with Barrels of Factoryzation.
+Fixed Implosion Compressor not being accessible for Automation on its Bottom (as there are the Casings).
+Fixed other Stuff.
+
+2.53c
+Added some ToolTips.
+Made Autocrafting Table a bit more intelligent.
+Fixed some Bugs.
+
+2.53b
+Changed the Way Iridium Plates are produced. Now needs implosion Compressor.
+Fixed java.lang.NullPointerException at[[1]](GT_MetaTileEntity_Quantumtank.java:39)
+
+2.53a
+Added Implosion Compressor. It needs very low Power (LV), as it just moves ITNT around ignites it and collects the Stuff from the explosion.
+Major Tweaks to the Autocrafting Table.
+Minor Tweaks in general.
+
+2.52c
+Added two additional End-Ores.
+Added Asteroids to the End.
+Added some of the suggested Stuff.
+
+2.52b
+Fixed some NEI-Stuff. Crashes already got fixed a Version ago, but I had to fix that one tiny broken Feature.
+Added the most awesome Ore to the End.
+
+2.52a
+Added compatiblity for Liquid UUM at the UUM-Assembler.
+Added a new End-Ore. But dont go there too soon. I currently did not add the Asteroids, and Tungstate Ore is not that Valuable as of now.
+Fixed all Bugs I've seen.
+
+2.51d
+Added GUI to Quantum Tank and made it more expensive.
+Fixed NEI-Crash with the most recent Version. But neither IC² nor mistaqur have fixed it for their Stuff (and uploaded), so I guess you still need the old Version.
+
+2.51c
+Added Quantum Tank. GUI is currently missing, but you can scan it with Nuclear Controls Sensor Kits.
+
+2.51b
+Guess what I did. (Added liquid input to appropriate machines.)
+
+2.51a
+Added connected Textures for Machine Casings
+Removed connection between Debug-Mode-Key-Code-Config and Xycraftcompatiblity
+
+2.50e
+Added a better Way of doing Stuff in my Code. For example all the Macerationrecipes of Tools and Armors are improved massively, as you are now even able to macerate Gem-Tools of Redpower or Platinum-Armor of Metallurgy. Railcrafts Steel Tools and Armors are ofcourse included, via Oredict.
+
+2.50d
+Added a better Way of doing Stuff in my Code. For example all the Macerationrecipes of Tools and Armors are improved massively, as you are now even able to macerate Gem-Tools of Redpower or Platinum-Armor of Metallurgy. Railcrafts Steel Tools and Armors are ofcourse included, via Oredict.
+
+2.50c
+Skipped changelog for the accidently released 2.50c which had no real content.
+
+2.50b
+Tweaked a few things.
+
+2.50a
+Fixed isBeaconBlock for Machine Casing Type Blocks, as these shouldnt do that.

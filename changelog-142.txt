@@ -1,0 +1,130 @@
+﻿2.08e
+Fusion Reactor + Redstone = Stops emitting Energy
+Buffers/Translocators/Sorters are now able to keep track with Induction Furnaces.
+
+2.08d
+Added Silicon Plate for Solar Panels. Now you need a Blast Furnace to craft Solar Panels.
+Added IQuantumChest Interface.
+Added some EXBL-Blocks to JackHammers List.
+Added API for JackHammerable Blocks.
+Added Config for the constant need of Energy.
+Added Constant need of Energy to Centrifuge and Electrolyzer.
+
+2.08c
+Added Jack Hammer in three diffrent Tiers. It can only break Stone, Cobble, Sandstone, Netherrack and Endstone.
+Made Aluminium Dust only smeltable in a sufficient Blast Furnace.
+Fixed some Stuff.
+
+2.08b
+Removed the ID-Resolver-blockade in this Version
+Added electric Blast Furnace. You may see, how to build it inside its GUI.
+Fixed baturinskys strange Bug, with the middle Blocks of the Grinder. The Water was the problem, obviously as soon as you Block-Update Water/Lava it gets another ID to indicate that it should now move/flow, and I didnt check for these additional Block-Update-ID's.
+
+2.08a
+Added Industrial Grinder, it can only macerate Ores. Its a Multiblock Structure, so you need much space for it. The Multiblockconstruction can be shared between up to 4 Grinders, what is just like upgrading the Machine. It needs 12800EU at 128EU/t to process the Ores.
+Added Machine Casing in 3 diffrent Tiers.
+Added Steel and Brass Blocks.
+Fixed a few Bugs.
+Made Diamond Drill more expensive.
+Added ridiculous alternate Recipe for Macerator, which saves 0.5 Diamonds at the cost of Steel/Refined Iron, but only if you craft two Macerators.
+
+2.07c
+Fixed Capes
+Fixed Diamondmaceration
+Fixed Beacon-Blocks
+
+2.07b
+Added reverse-Macerating for many Tools and Items, and autodisabled Tinbucket, Bronzecart, Steelcart and Bronzebucket
+Added Steel Dust/Ingot, its recipe is only enabled if Railcraft is NOT installed.
+Fixed Sorter outputting Stuff into the opposite side.
+
+2.07a
+Added Crop Harvestor.
+Added Scrapboxinator. It was planned to turn anything into Scrapboxes with it, but due to a minor malfunction it just unpacks Scrapboxes.
+Added Diamond Blade as new Component for a few Machines (currently only Crop Harvestor, but you can guess what the Sawmill will need).
+
+2.06c
+Fixed a bunch of Clientside Bugs, including Progressbars and MetatileEntity-GUI's (it updates on Rightclick, so the Texture is may Adv Machine until you click).
+Added additional Drops for some Ores. You will see them, when you harvest them. I have to update the Wikipage about it, as I changed something to the Drops. And yes, they are Fortune-Compatible (like Flint should be for Gravel)
+Minor Tweaks.
+
+2.06b
+Fusionreactor outputs empty Cells in the same Slot as the regular Output, you just have to grab it automatically.
+Fusion is buffed, 2 times longer and 8 times more Energy. Now you need a Supercondensator to run it properly.
+Added small Dusts of pretty much everything. 4 of them make a full one. Some of them even have special Recipes.
+
+2.06a
+Added Industrial Electrolyzer, crafted of Extractor, Magnetizer, IC²-Electrolyzer, Tier-IV-Circuitry and Aluminium or Refined Iron
+Moved tons of Recipes from the Centriuge to the ~10 times faster Electrolyzer.
+Electrolyzer accepts MV btw.
+
+2.05c
+Added a ton of Dusts, Ingots, Ores n' Stuff. Some of them are currently unobtainable.
+Added Log-Spam for unknown Dusts and Gems as well.
+Added green Sapphire to the Drops of regular Sapphireore.
+
+2.05b
+Added Lead Ingots and Dusts.
+Added Metallurgyores to compatiblitylist.
+Added Electric Item Cleaner to suck up Items in front of it at 2EU per single Item.
+Fixed Fusionreactor.
+
+2.05a
+Added Cloakingdevice, which grants 100% Invisiblity when worn (the 10Million Charge holds for just 50 seconds), its Recipe is a bit temporary.
+Added a new Component, the monitor. Its now used for Computers and similar Devices.
+Added Oredictsupport for the Miner of IC². When your log says, that there is an unknown Ore, please tell it to me. It will still be registered at the Miner, but with a Value of 1
+
+2.04b
+Added Tungsten Dust, Diamond Dust (now needed for the Rockcutter), Tungsten Ingot (from centrifuging Lava) and 6 completly useless dusts, which arent my fault as these are perparation for EcsWhyCraft.
+Added Lazurite Chunk as replacement for Lapisblocks in some recipes like the one form the LESU or the Lappack.
+
+2.04a
+Fixed Creativetabs of the Blocks.
+Added Langfile for Items and Blocks.
+Fixed a few other crashes.
+
+2.03c
+Various fixes
+Creativetab
+Added Saltpeter to the output of the Soulssand-Centrifugation
+
+2.03b
+Added Pyrite-Ore in the Nether. The Pyritedust is like the one from centrifuging Lapis and gives you 1/3 Irondust and 2/3 Sulfur.
+Fixed Oredictionarynames from those Hipsters, who think "itemDust" is the correct prefix, by reregistering those with a "dust"-prefix.
+Textures of a few Blocks were slightly changed.
+
+2.03a
+I will adjust the Exception thrown when a nullpointer occurs to mention ID-Resolver, and i will use the BlockID inside the Block instead of my Configvalue.
+
+2.02c
+After seeing a random Modspotlight, i added Electrum Ingot/Dust. Crafted out of Gold and Silver Dust. Electrum is now used instead of Gold inside my Machinerecipes and instead of Silver in the cheaper Circuitry. That was the use for Gold i was looking for.
+
+2.02b
+Fixed mistaqurs Problem probably
+Added Mortar to make Dusts out of Ingots/Coal. Not all Ingots are possible, some are too dense.
+
+2.02a
+Added ElectricSorter. Works similar to the Translocator, but has a variable second Outputfacing for the sorted Items.
+
+2.01c
+Added Rockbreaker! An electric Cobblegenerator.
+
+2.01b
+Btw. GregTech-Sensorcards are now added as of V2.01b.
+
+2.01a
+Added two new Blocks for Automation, the Advanced Translocator, which works like Sneakypipes, and the Advanced Buffer, which is able to put Items into a specific Slot (very usefull for Reactors!).
+
+2.00d
+shouldve fixed the other two Bugs
+
+2.00c
+Mainly Bugfixes.
+
+2.00b
+ItemID's are now massively improved. This Version will be upwardscompatible.
+
+2.00a Beta
+Port to Minecraft 1.4.2 and IC2 1.108
+Oregeneration works fine. Some Rightclickactions of Items (Sonictron, Debugscanner, Dataorb) are broken.
+Some Items will no longer work after the next Update. I'm talking about: Dusts, Cells, Ingots, Circuitry and Gems. Basically all stupid Resource-ITEMS (not Blocks like the Ores). I recommend you, to not harvest Gems without Rockcutter or to macerate Bauxite, the Items they drop will no longer be valid in 2.00b.
